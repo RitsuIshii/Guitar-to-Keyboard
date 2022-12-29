@@ -1,0 +1,326 @@
+@font-face {
+  font-family: koruri;
+  src: url(fonts/Koruri-Regular.ttf);
+}
+body{
+  width: 100%;
+  font-family: 'koruri', sans-serif;
+  aspect-ratio: 16/9;
+}
+h1{
+  background-color: #00C9C8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#stripe1 {
+  position: relative;
+  opacity: 0.2;
+  height: 161px;
+  width: 90%;
+  margin: 0 0 0 auto;
+  margin-top: 50px;
+  margin-right: 20px;
+  background-image:
+  repeating-linear-gradient(
+    90deg,
+    #000 ,
+    #000 1px,
+    transparent 1px,
+    transparent 8.32%
+  ),
+  repeating-linear-gradient(
+    0deg,
+    #000 ,
+    #000 1px,
+    #fff 1px,
+    #fff 32px
+  );
+}
+
+.circle1{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: -25%;
+  left: 21%;
+}
+.circle2{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: -25%;
+  left: 37.1%;
+}
+.circle3{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: -25%;
+  left: 53.7%;
+}
+.circle4{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: -25%;
+  left: 70.5%;
+}
+.circle5{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: -31%;
+  left: 95.3%;
+}
+.circle6{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: -20%;
+  left: 95.3%;
+}
+.s1{position: absolute; left: -9%; top: -10%; width: 100%;}
+.s2{position: absolute; left: -9%; top: 10%; width: 100%;}
+.s3{position: absolute; left: -9%; top: 30%; width: 100%;}
+.s4{position: absolute; left: -9%; top: 50%; width: 100%;}
+.s5{position: absolute; left: -9%; top: 70%; width: 100%;}
+.s6{position: absolute; left: -9%; top: 90%; width: 100%;}
+.sf{position: absolute; left: -9%; top: 100%; width: 100%;}
+
+.open{left: 5%;}
+.s1 .f1{left: 12%;}
+.s1 .f2{left: 19.4%;}
+.s1 .f3{left: 28.6%;}
+.s1 .f4{left: 35.8%;}
+.s1 .f5{left: 45.2%;}
+.s1 .f6{left: 52.5%;}
+.s1 .f7{left: 61.8%;}
+.s1 .f8{left: 70%;}
+.s1 .f9{left: 77.5%;}
+.s1 .f10{left: 86.6%;}
+.s1 .f11{left: 94%;}
+.s1 .f12{left: 103.5%;}
+
+.s2 .f1{left: 12%;}
+.s2 .f2{left: 19.4%;}
+.s2 .f3{left: 28.6%;}
+.s2 .f4{left: 35.8%;}
+.s2 .f5{left: 45.2%;}
+.s2 .f6{left: 53.5%;}
+.s2 .f7{left: 61%;}
+.s2 .f8{left: 70%;}
+.s2 .f9{left: 77.5%;}
+.s2 .f10{left: 86.6%;}
+.s2 .f11{left: 94%;}
+.s2 .f12{left: 103.5%;}
+
+.s3 .f1{left: 11%;}
+.s3 .f2{left: 20.2%;}
+.s3 .f3{left: 27.6%;}
+.s3 .f4{left: 36.8%;}
+.s3 .f5{left: 45.2%;}
+.s3 .f6{left: 52.5%;}
+.s3 .f7{left: 61.8%;}
+.s3 .f8{left: 69%;}
+.s3 .f9{left: 78.5%;}
+.s3 .f10{left: 86.6%;}
+.s3 .f11{left: 94%;}
+.s3 .f12{left: 103.5%;}
+
+.s4 .f1{left: 11%;}
+.s4 .f2{left: 20.2%;}
+.s4 .f3{left: 28.6%;}
+.s4 .f4{left: 35.8%;}
+.s4 .f5{left: 45.2%;}
+.s4 .f6{left: 52.5%;}
+.s4 .f7{left: 61.8%;}
+.s4 .f8{left: 69%;}
+.s4 .f9{left: 78.5%;}
+.s4 .f10{left: 86.6%;}
+.s4 .f11{left: 94%;}
+.s4 .f12{left: 103.5%;}
+
+.s5 .f1{left: 11%;}
+.s5 .f2{left: 20.2%;}
+.s5 .f3{left: 28.6%;}
+.s5 .f4{left: 35.8%;}
+.s5 .f5{left: 45.2%;}
+.s5 .f6{left: 52.5%;}
+.s5 .f7{left: 61.8%;}
+.s5 .f8{left: 70%;}
+.s5 .f9{left: 77.5%;}
+.s5 .f10{left: 86.6%;}
+.s5 .f11{left: 94%;}
+.s5 .f12{left: 103.5%;}
+
+.s6 .f1{left: 12%;}
+.s6 .f2{left: 19.4%;}
+.s6 .f3{left: 28.6%;}
+.s6 .f4{left: 35.8%;}
+.s6 .f5{left: 45.2%;}
+.s6 .f6{left: 52.5%;}
+.s6 .f7{left: 61.8%;}
+.s6 .f8{left: 70%;}
+.s6 .f9{left: 77.5%;}
+.s6 .f10{left: 86.6%;}
+.s6 .f11{left: 94%;}
+.s6 .f12{left: 103.5%;}
+
+.sf .f1{left: 16.1%;}
+.sf .f2{left: 24.4%;}
+.sf .f3{left: 32.7%;}
+.sf .f4{left: 41%;}
+.sf .f5{left: 49.4%;}
+.sf .f6{left: 57.7%;}
+.sf .f7{left: 66%;}
+.sf .f8{left: 74.3%;}
+.sf .f9{left: 82.7%;}
+.sf .f10{left: 90.6%;}
+.sf .f11{left: 99.1%;}
+.sf .f12{left: 107.1%;}
+
+.frets{ 
+  position: absolute;
+  display: inline-block;
+  border-radius: 100vh;
+  padding: 1%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  max-width: 43px;
+}
+
+.note{
+  background-color: #9DB1FF;
+  position: absolute;
+  display: inline-block;
+  border-radius: 100vh;
+  border-color: #657DC6;
+  padding: 1%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  max-width: 43px;
+  cursor: pointer;
+}
+
+.note .text{
+  text-align: center;
+  font-family: sans-serif, serif;
+}
+
+.note:hover{background-color: #657DC6;}
+
+/* .half{
+    font-size: min(1.1vw,25px);
+} */
+
+#keyboard {
+    width: 100%;
+    opacity: 0.2;
+    position: relative;
+    margin-top: 50px;
+}
+#btn {
+  width: 100px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  background-color: #9DB1FF;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  margin: auto;
+  display: block;
+}
+#reset{
+  opacity: 0.2;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  background-color: #9DB1FF;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  margin: auto;
+  margin-top: 5px;
+  display: block;
+}
+#chord{
+  opacity: 0.2;
+  width: 130px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  background-color: #9DB1FF;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 5px;
+}
+.whitekey {
+    width: 3%;
+    height: 240px;
+    display: inline-block;
+    border: 1px solid #000;
+    position: relative;
+    top: 0;
+    z-index: 0;
+    
+}
+.whitekey:hover {
+  background-color: #dfdfdf;
+}
+
+.blackkey {
+    width: 2.5%;
+    height: 140px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-left: -1.4%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.blackkey:hover {
+  background-color: #333;
+}
+
+.whitekey .text {
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+    color: #bbb;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 0;
+}
+.blackkey .text {
+    position: absolute;
+    bottom: 5px;
+    left: 15%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.activekey {
+  background-color: #00C9C8;
+}
+
